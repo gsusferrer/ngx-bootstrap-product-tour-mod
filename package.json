@@ -1,36 +1,4 @@
 {
-  "_from": "ngx-bootstrap-product-tour",
-  "_id": "ngx-bootstrap-product-tour@2.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-NDUMvMyRok+gQajXnb2b5n2LLzeU+SS/F2xDWC+WOvrVUIaKW41hTzURkOOnsTah4LL3LJYTFT+A3LhJI/9Blw==",
-  "_location": "/ngx-bootstrap-product-tour",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "ngx-bootstrap-product-tour",
-    "name": "ngx-bootstrap-product-tour",
-    "escapedName": "ngx-bootstrap-product-tour",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/ngx-bootstrap-product-tour/-/ngx-bootstrap-product-tour-2.0.2.tgz",
-  "_shasum": "68d7b16b8c9521cf2e50a7568d4eebdd0066afd6",
-  "_spec": "ngx-bootstrap-product-tour",
-  "_where": "/home/tic/Projects/dad-pck-web-develop",
-  "author": {
-    "name": "Nikola Milicic",
-    "email": "nikola.milicic991@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/NMilicic/ngx-bootstrap-product-tour/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "@angular/animations": "^5.2.10",
     "@angular/common": "^5.2.10",
@@ -50,7 +18,7 @@
     "zone.js": "^0.8.26"
   },
   "deprecated": false,
-  "description": "Angular product tour using ngx-bootstrap popover",
+  "description": "Angular product tour using ngx-bootstrap-mod popover",
   "devDependencies": {
     "@angular/cli": "^1.7.4",
     "@angular/compiler-cli": "^5.2.10",
@@ -73,8 +41,8 @@
     "tslint": "~5.7.0",
     "typescript": "^2.8.3"
   },
-  "es2015": "ngx-bootstrap-product-tour.js",
-  "homepage": "https://github.com/NMilicic/ngx-bootstrap-product-tour#readme",
+  "es2015": "ngx-bootstrap-product-tour-mod.js",
+  "homepage": "https://github.com/gsusferrer/ngx-bootstrap-product-tour-mod#readme",
   "keywords": [
     "angular",
     "angular2",
@@ -85,10 +53,10 @@
     "ngx-bootstrap"
   ],
   "license": "MIT",
-  "main": "bundles/ngx-bootstrap-product-tour.umd.js",
-  "metadata": "ngx-bootstrap-product-tour.metadata.json",
-  "module": "ngx-bootstrap-product-tour.es5.js",
-  "name": "ngx-bootstrap-product-tour",
+  "main": "bundles/ngx-bootstrap-product-tour-mod.umd.js",
+  "metadata": "ngx-bootstrap-product-tour-mod.metadata.json",
+  "module": "ngx-bootstrap-product-tour-mod.es5.js",
+  "name": "ngx-bootstrap-product-tour-mod",
   "peerDependencies": {
     "ngx-bootstrap": "^2.0.4",
     "bootstrap": "^3.3.7"
@@ -96,7 +64,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NMilicic/ngx-bootstrap-product-tour.git"
+    "url": "git+https://github.com/gsusferrer/ngx-bootstrap-product-tour-mod.git"
   },
   "scripts": {
     "build": "ng build",
@@ -107,6 +75,10 @@
     "start": "ng serve",
     "test": "ng test"
   },
-  "typings": "ngx-bootstrap-product-tour.d.ts",
-  "version": "2.0.2"
+  "typings": "ngx-bootstrap-product-tour-mod.d.ts",
+  "version": "2.0.8",
+  "bugs": {
+    "url": "https://github.com/gsusferrer/ngx-bootstrap-product-tour-mod/issues"
+  },
+  "author": "Jesus Ferrer <gsus.ferrer@gmail.com> (http://yourblog.com)"
 }

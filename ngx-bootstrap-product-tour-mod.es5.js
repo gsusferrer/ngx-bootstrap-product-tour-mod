@@ -16204,7 +16204,7 @@ var NgxBootstrapProductTourStepComponent = /** @class */ (function () {
 }());
 NgxBootstrapProductTourStepComponent.decorators = [
     { type: Component, args: [{
-                selector: 'ngx-bootstrap-product-tour',
+                selector: 'ngx-bootstrap-product-tour-mod',
                 template: "\n <div *ngIf=\"tourService.currentStep?.backdrop && tourService.isStepOpen(tourService.currentStep)\" class=\"tour-backdrop\"></div>\n      <ng-template #tourStep>\n      <p class=\"tour-step-content\">{{tourService.currentStep.content}}</p>\n      <div class=\"tour-step-navigation\">\n        <button *ngIf=\"tourService.hasPrev(tourService.currentStep)\" class=\"btn btn-sm btn-default\" (click)=\"tourService.prev()\">\u00AB Prev</button>\n        <button *ngIf=\"tourService.hasNext(tourService.currentStep)\" class=\"btn btn-sm btn-primary\" (click)=\"tourService.next()\">Next \u00BB</button>\n        <i class=\"fa fa-remove popover-close\" (click)=\"tourService.end()\"></i>\n      </div>\n    </ng-template>\n  ",
                 styles: ["\n    ::ng-deep .orphan {\n        position: fixed;\n        top: 50% !important;\n        left: 50% !important;\n        -webkit-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n    }\n\n    ::ng-deep .orphan>.popover-arrow {\n        display: none;\n    }\n\n    .tour-backdrop {\n        position: fixed;\n        top: 0;\n        right: 0;\n        bottom: 0;\n        left: 0;\n    }\n  "]
             },] },
@@ -16266,4 +16266,4 @@ NgxBootstrapProductTourModule.ctorParameters = function () { return []; };
  * Generated bundle index. Do not edit.
  */
 export { NgxBootstrapProductTourModule, NgxBootstrapProductTourService, NgxBootstrapProductTourStepComponent as ɵd, NgxBootstrapProductTourStepService as ɵc, NgxBootstrapPopoverDirective as ɵa, NgxBootstrapProductTourDirective as ɵb };
-//# sourceMappingURL=ngx-bootstrap-product-tour.es5.js.map
+//# sourceMappingURL=ngx-bootstrap-product-tour-mod.es5.js.map

@@ -1,10 +1,10 @@
-import { IStep, TourState } from './ngx-bootstrap-product-tour.models';
+import { IStep, TourState } from './ngx-bootstrap-product-tour-mod.models';
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject';
 import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/first';
 import { Router } from '@angular/router';
-import { NgxBootstrapProductTourDirective } from './ngx-bootstrap-product-tour.directive';
+import { NgxBootstrapProductTourDirective } from './ngx-bootstrap-product-tour-mod.directive';
 export declare class NgxBootstrapProductTourService {
     private router;
     stepShow$: Subject<IStep>;

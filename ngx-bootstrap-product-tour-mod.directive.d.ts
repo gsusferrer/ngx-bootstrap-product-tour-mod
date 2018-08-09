@@ -1,8 +1,8 @@
 import { ElementRef, OnDestroy, OnInit } from '@angular/core';
 import { PopoverDirective } from 'ngx-bootstrap';
-import { NgxBootstrapProductTourService } from './ngx-bootstrap-product-tour.service';
-import { IStep } from './ngx-bootstrap-product-tour.models';
-import { NgxBootstrapProductTourStepService } from './ngx-bootstrap-product-tour-step/ngx-bootstrap-product-tour-step.service';
+import { NgxBootstrapProductTourService } from './ngx-bootstrap-product-tour-mod.service';
+import { IStep } from './ngx-bootstrap-product-tour-mod.models';
+import { NgxBootstrapProductTourStepService } from './ngx-bootstrap-product-tour-mod-step/ngx-bootstrap-product-tour-mod-step.service';
 export declare class NgxBootstrapPopoverDirective extends PopoverDirective {
     triggers: string;
 }

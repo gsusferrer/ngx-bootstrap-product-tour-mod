@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/forms'), require('rxjs/add/operator/filter'), require('rxjs/add/operator/map'), require('rxjs/BehaviorSubject'), require('rxjs/Observable'), require('rxjs/operator/distinctUntilChanged'), require('rxjs/operator/map'), require('rxjs/operator/observeOn'), require('rxjs/operator/scan'), require('rxjs/Subject'), require('rxjs/add/observable/timer'), require('rxjs/add/observable/from'), require('rxjs/add/operator/debounceTime'), require('rxjs/add/operator/switchMap'), require('rxjs/add/operator/mergeMap'), require('rxjs/add/operator/toArray'), require('rxjs/operator/merge'), require('rxjs/add/operator/first'), require('@angular/router')) :
 	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/forms', 'rxjs/add/operator/filter', 'rxjs/add/operator/map', 'rxjs/BehaviorSubject', 'rxjs/Observable', 'rxjs/operator/distinctUntilChanged', 'rxjs/operator/map', 'rxjs/operator/observeOn', 'rxjs/operator/scan', 'rxjs/Subject', 'rxjs/add/observable/timer', 'rxjs/add/observable/from', 'rxjs/add/operator/debounceTime', 'rxjs/add/operator/switchMap', 'rxjs/add/operator/mergeMap', 'rxjs/add/operator/toArray', 'rxjs/operator/merge', 'rxjs/add/operator/first', '@angular/router'], factory) :
-	(factory((global['ngx-bootstrap-product-tour'] = {}),global.ng.core,global.ng.common,global.ng.forms,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx,global.Rx,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx,global.Rx.Observable,global.Rx.Observable,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.ng.router));
+	(factory((global['ngx-bootstrap-product-tour-mod'] = {}),global.ng.core,global.ng.common,global.ng.forms,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx,global.Rx,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx,global.Rx.Observable,global.Rx.Observable,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.ng.router));
 }(this, (function (exports,core,common,forms,filter,map,BehaviorSubject,Observable,distinctUntilChanged,map$1,observeOn,scan,Subject,timer,from,debounceTime,switchMap,mergeMap,toArray,merge,first,router) { 'use strict';
 
 var __extends = (this && this.__extends) || (function () {
@@ -16189,7 +16189,7 @@ var NgxBootstrapProductTourStepComponent = /** @class */ (function () {
 }());
 NgxBootstrapProductTourStepComponent.decorators = [
     { type: core.Component, args: [{
-                selector: 'ngx-bootstrap-product-tour',
+                selector: 'ngx-bootstrap-product-tour-mod',
         template: "\n    <div *ngIf=\"tourService.currentStep?.backdrop && tourService.isStepOpen(tourService.currentStep)\" class=\"tour-backdrop\"></div>\n      <ng-template #tourStep>\n      <p class=\"tour-step-content\">{{tourService.currentStep.content}}</p>\n      <div class=\"tour-step-navigation\">\n        <button *ngIf=\"tourService.hasPrev(tourService.currentStep)\" class=\"btn btn-sm btn-default\" (click)=\"tourService.prev()\">\u00AB Prev</button>\n        <button *ngIf=\"tourService.hasNext(tourService.currentStep)\" class=\"btn btn-sm btn-default\" (click)=\"tourService.next()\">Next \u00BB</button>\n        <button class=\"btn btn-error\" (click)=\"tourService.end()\">End</buttonw>\n      </div>\n    </ng-template>\n  ",
                 styles: ["\n    ::ng-deep .orphan {\n        position: fixed;\n        top: 50% !important;\n        left: 50% !important;\n        -webkit-transform: translate(-50%, -50%);\n        transform: translate(-50%, -50%);\n    }\n\n    ::ng-deep .orphan>.popover-arrow {\n        display: none;\n    }\n\n    .tour-backdrop {\n        position: fixed;\n        top: 0;\n        right: 0;\n        bottom: 0;\n        left: 0;\n    }\n  "]
             },] },
@@ -16258,4 +16258,4 @@ exports.ɵb = NgxBootstrapProductTourDirective;
 Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=ngx-bootstrap-product-tour.umd.js.map
+//# sourceMappingURL=ngx-bootstrap-product-tour-mod.umd.js.map

@@ -16204,7 +16204,7 @@ class NgxBootstrapProductTourStepComponent {
 }
 NgxBootstrapProductTourStepComponent.decorators = [
     { type: Component, args: [{
-                selector: 'ngx-bootstrap-product-tour',
+                selector: 'ngx-bootstrap-product-tour-mod',
                 template: `
     <div *ngIf="tourService.currentStep?.backdrop && tourService.isStepOpen(tourService.currentStep)" class="tour-backdrop"></div>
       <ng-template #tourStep>
@@ -16296,4 +16296,4 @@ NgxBootstrapProductTourModule.ctorParameters = () => [];
  */
 
 export { NgxBootstrapProductTourModule, NgxBootstrapProductTourService, NgxBootstrapProductTourStepComponent as ɵd, NgxBootstrapProductTourStepService as ɵc, NgxBootstrapPopoverDirective as ɵa, NgxBootstrapProductTourDirective as ɵb };
-//# sourceMappingURL=ngx-bootstrap-product-tour.js.map
+//# sourceMappingURL=ngx-bootstrap-product-tour-mod.js.map

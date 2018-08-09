@@ -1,8 +1,8 @@
-# ngx-bootstrap-product-tour
-[![npm version](https://badge.fury.io/js/ngx-bootstrap-product-tour.svg)](https://badge.fury.io/js/ngx-bootstrap-product-tour)
+# ngx-bootstrap-product-tour-mod
+[![npm version](https://badge.fury.io/js/ngx-bootstrap-product-tour-mod.svg)](https://badge.fury.io/js/ngx-bootstrap-product-tour-mod)
 ## About
 
-This is a MODIFICATION from product tour library built with Angular (2+).
+This is a product tour library built with Angular (2+).
 `NgxBootstrapProductTourModule` is an implementation of the tour ui that uses [ngx-bootstrap](https://valor-software.com/ngx-bootstrap)  popovers to display tour steps.
 
 For Angular 4 use package version 1.0.6 
@@ -11,14 +11,14 @@ For Angular 5 use package version 2.0.x
 
 ## Installation
 
-1. `npm i ngx-bootstrap-product-tour ngx-bootstrap bootstrap`
+1. `npm i ngx-bootstrap-product-tour-mod ngx-bootstrap bootstrap`
 2. Import `NgxBootstrapProductTourModule.forRoot()` into your app module
 3. Make sure `RouterModule` is imported in your app module
 4. Include bootstrap css.
 
 ## Usage
 
-1. Add `<ngx-bootstrap-product-tour></ngx-bootstrap-product-tour>` to your root app component
+1. Add `<ngx-bootstrap-product-tour-mod></ngx-bootstrap-product-tour-mod>` to your root app component
 2. Define anchor points for the tour steps by adding the `tourAnchor` directive throughout your app.
 
     ```html
@@ -40,7 +40,7 @@ For Angular 5 use package version 2.0.x
 4. Start the tour with `tourService.start()`
 
 ## Demo
-Demo page can be found [here](https://nmilicic.github.io/ngx-bootstrap-product-tour/) and it's [source code here](https://github.com/NMilicic/ngx-bootstrap-product-tour/tree/master/src//app).
+Demo page can be found [here](https://nmilicic.github.io/ngx-bootstrap-product-tour-mod/) and it's [source code here](https://github.com/NMilicic/ngx-bootstrap-product-tour-mod/tree/master/src//app).
 
 ## TourService
 
@@ -113,12 +113,12 @@ this.tourService.initialize$.subscribe((steps: IStep[]) => {{ '{' }}
 
 ## Custom template
 
-  You can also customize the tour step template by providing an `<ng-template>` inside the `<ngx-bootstrap-product-tour>`
+  You can also customize the tour step template by providing an `<ng-template>` inside the `<ngx-bootstrap-product-tour-mod>`
 
   The default template is equivalent to this:
 
 ```html
-<ngx-bootstrap-product-tour>
+<ngx-bootstrap-product-tour-mod>
   <ng-template #tourStep>
     <p class="tour-step-content">{{tourService.currentStep.content}}</p>
     <div class="tour-step-navigation">
@@ -127,5 +127,5 @@ this.tourService.initialize$.subscribe((steps: IStep[]) => {{ '{' }}
       <button class="btn btn-sm btn-error" (click)="tourService.end()">End</button>
     </div>
   </ng-template>
-</ngx-bootstrap-product-tour>
+</ngx-bootstrap-product-tour-mod>
 ```
